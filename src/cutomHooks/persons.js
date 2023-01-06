@@ -44,7 +44,6 @@ export const useEditNumber = (notifyError) => {
 
   return { editNumber };
 };
-
 export const useAddedPersonSub = () => {
   const client = useApolloClient();
 
